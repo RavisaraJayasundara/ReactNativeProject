@@ -1,5 +1,5 @@
 import { StyleSheet, View } from "react-native";
-import { Text, Divider } from "react-native-paper";
+import { Text, Divider,Button } from "react-native-paper";
 
 export default function Home() {
   return (
@@ -27,6 +27,9 @@ export default function Home() {
         reading before you reach the end, Word remembers where you left off -
         even on another device.
       </Text>
+      <Button icon="camera" mode="outlined" onPress={() => console.log('Pressed')}>
+        Press me
+      </Button>
     </>
   );
 }
