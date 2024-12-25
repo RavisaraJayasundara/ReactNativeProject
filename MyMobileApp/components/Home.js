@@ -3,7 +3,7 @@ import { Text, Divider } from "react-native-paper";
 
 export default function Home() {
   return (
-    <View>
+    <>
       <Text variant="headlineLarge">Headline Large</Text>
       <Divider />
       <Text variant="bodyMedium" style={styles.body}>
@@ -27,7 +27,7 @@ export default function Home() {
         reading before you reach the end, Word remembers where you left off -
         even on another device.
       </Text>
-    </View>
+    </>
   );
 }
 
